@@ -1,0 +1,17 @@
+# Local source extracts. Redistribution rights are not established.
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated tables stay local. The three README figures are tracked.
+outputs/*
+!outputs/.gitkeep
+!outputs/reporting_coverage_heatmap.png
+!outputs/teacher_capacity_2016.png
+!outputs/expenditure_per_student_2011.png
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+.DS_Store
